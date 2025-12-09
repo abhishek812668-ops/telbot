@@ -3,8 +3,9 @@ import time
 import datetime
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
-TOKEN = os.getenv("8573280925:AAHlT2QIZTvFbFyV4YgGR56cuz_-4ld-Yy4")
-CHAT_ID = int(os.getenv("-1002659872445"))
+TOKEN = "8573280925:AAHlT2QIZTvFbFyV4YgGR56cuz_-4ld-Yy4"
+CHAT_ID = -1002659872445
+
 
 BASE_PATH = "images"
 
